@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0212DF96136A36AF00478B74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212DF95136A36AF00478B74 /* UIKit.framework */; };
+		0212DF98136A36AF00478B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212DF97136A36AF00478B74 /* Foundation.framework */; };
+		0212DF9A136A36AF00478B74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212DF99136A36AF00478B74 /* CoreGraphics.framework */; };
+		0212DFA0136A36AF00478B74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0212DF9E136A36AF00478B74 /* InfoPlist.strings */; };
+		0212DFA3136A36AF00478B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFA2136A36AF00478B74 /* main.m */; };
+		0212DFA6136A36AF00478B74 /* iRedditAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFA5136A36AF00478B74 /* iRedditAppDelegate.m */; };
+		0212DFA9136A36AF00478B74 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0212DFA7136A36AF00478B74 /* MainWindow.xib */; };
+		0212DFAC136A36AF00478B74 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFAB136A36AF00478B74 /* RootViewController.m */; };
+		0212DFAF136A36AF00478B74 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0212DFAD136A36AF00478B74 /* RootViewController.xib */; };
+		0212DFCA136A378900478B74 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFB9136A378900478B74 /* NSObject+JSON.m */; };
+		0212DFCB136A378900478B74 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFBB136A378900478B74 /* SBJsonParser.m */; };
+		0212DFCC136A378900478B74 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFBD136A378900478B74 /* SBJsonStreamParser.m */; };
+		0212DFCD136A378900478B74 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFBF136A378900478B74 /* SBJsonStreamParserAdapter.m */; };
+		0212DFCE136A378900478B74 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFC1136A378900478B74 /* SBJsonStreamParserState.m */; };
+		0212DFCF136A378900478B74 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFC3136A378900478B74 /* SBJsonStreamWriter.m */; };
+		0212DFD0136A378900478B74 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFC5136A378900478B74 /* SBJsonStreamWriterState.m */; };
+		0212DFD1136A378900478B74 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFC7136A378900478B74 /* SBJsonTokeniser.m */; };
+		0212DFD2136A378900478B74 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0212DFC9136A378900478B74 /* SBJsonWriter.m */; };
+		02CB7AB2136A478100E55C07 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB7AB0136A478100E55C07 /* CommentsViewController.m */; };
+		02CB7AB3136A478100E55C07 /* CommentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CB7AB1136A478100E55C07 /* CommentsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0212DF91136A36AF00478B74 /* iReddit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iReddit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0212DF95136A36AF00478B74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0212DF97136A36AF00478B74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0212DF99136A36AF00478B74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0212DF9D136A36AF00478B74 /* iReddit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iReddit-Info.plist"; sourceTree = "<group>"; };
+		0212DF9F136A36AF00478B74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0212DFA1136A36AF00478B74 /* iReddit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iReddit-Prefix.pch"; sourceTree = "<group>"; };
+		0212DFA2136A36AF00478B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0212DFA4136A36AF00478B74 /* iRedditAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRedditAppDelegate.h; sourceTree = "<group>"; };
+		0212DFA5136A36AF00478B74 /* iRedditAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRedditAppDelegate.m; sourceTree = "<group>"; };
+		0212DFA8136A36AF00478B74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0212DFAA136A36AF00478B74 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0212DFAB136A36AF00478B74 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0212DFAE136A36AF00478B74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0212DFB7136A378900478B74 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = "../../../../../code/Frameworks/json-framework/Classes/JSON.h"; sourceTree = "<group>"; };
+		0212DFB8136A378900478B74 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JSON.h"; path = "../../../../../code/Frameworks/json-framework/Classes/NSObject+JSON.h"; sourceTree = "<group>"; };
+		0212DFB9136A378900478B74 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JSON.m"; path = "../../../../../code/Frameworks/json-framework/Classes/NSObject+JSON.m"; sourceTree = "<group>"; };
+		0212DFBA136A378900478B74 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonParser.h"; sourceTree = "<group>"; };
+		0212DFBB136A378900478B74 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonParser.m"; sourceTree = "<group>"; };
+		0212DFBC136A378900478B74 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamParser.h"; sourceTree = "<group>"; };
+		0212DFBD136A378900478B74 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamParser.m"; sourceTree = "<group>"; };
+		0212DFBE136A378900478B74 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamParserAdapter.h"; sourceTree = "<group>"; };
+		0212DFBF136A378900478B74 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamParserAdapter.m"; sourceTree = "<group>"; };
+		0212DFC0136A378900478B74 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamParserState.h"; sourceTree = "<group>"; };
+		0212DFC1136A378900478B74 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamParserState.m"; sourceTree = "<group>"; };
+		0212DFC2136A378900478B74 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamWriter.h"; sourceTree = "<group>"; };
+		0212DFC3136A378900478B74 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamWriter.m"; sourceTree = "<group>"; };
+		0212DFC4136A378900478B74 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamWriterState.h"; sourceTree = "<group>"; };
+		0212DFC5136A378900478B74 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonStreamWriterState.m"; sourceTree = "<group>"; };
+		0212DFC6136A378900478B74 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonTokeniser.h"; sourceTree = "<group>"; };
+		0212DFC7136A378900478B74 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonTokeniser.m"; sourceTree = "<group>"; };
+		0212DFC8136A378900478B74 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonWriter.h"; sourceTree = "<group>"; };
+		0212DFC9136A378900478B74 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "../../../../../code/Frameworks/json-framework/Classes/SBJsonWriter.m"; sourceTree = "<group>"; };
+		02CB7AAF136A478100E55C07 /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		02CB7AB0136A478100E55C07 /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
+		02CB7AB1136A478100E55C07 /* CommentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0212DF8E136A36AF00478B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0212DF96136A36AF00478B74 /* UIKit.framework in Frameworks */,
+				0212DF98136A36AF00478B74 /* Foundation.framework in Frameworks */,
+				0212DF9A136A36AF00478B74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0212DF86136A36AF00478B74 = {
+			isa = PBXGroup;
+			children = (
+				0212DF9B136A36AF00478B74 /* iReddit */,
+				0212DF94136A36AF00478B74 /* Frameworks */,
+				0212DF92136A36AF00478B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0212DF92136A36AF00478B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0212DF91136A36AF00478B74 /* iReddit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0212DF94136A36AF00478B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0212DF95136A36AF00478B74 /* UIKit.framework */,
+				0212DF97136A36AF00478B74 /* Foundation.framework */,
+				0212DF99136A36AF00478B74 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0212DF9B136A36AF00478B74 /* iReddit */ = {
+			isa = PBXGroup;
+			children = (
+				0212DFB5136A376200478B74 /* json */,
+				0212DFA4136A36AF00478B74 /* iRedditAppDelegate.h */,
+				0212DFA5136A36AF00478B74 /* iRedditAppDelegate.m */,
+				0212DFA7136A36AF00478B74 /* MainWindow.xib */,
+				0212DFAA136A36AF00478B74 /* RootViewController.h */,
+				0212DFAB136A36AF00478B74 /* RootViewController.m */,
+				0212DFAD136A36AF00478B74 /* RootViewController.xib */,
+				0212DF9C136A36AF00478B74 /* Supporting Files */,
+				02CB7AAF136A478100E55C07 /* CommentsViewController.h */,
+				02CB7AB0136A478100E55C07 /* CommentsViewController.m */,
+				02CB7AB1136A478100E55C07 /* CommentsViewController.xib */,
+			);
+			path = iReddit;
+			sourceTree = "<group>";
+		};
+		0212DF9C136A36AF00478B74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0212DF9D136A36AF00478B74 /* iReddit-Info.plist */,
+				0212DF9E136A36AF00478B74 /* InfoPlist.strings */,
+				0212DFA1136A36AF00478B74 /* iReddit-Prefix.pch */,
+				0212DFA2136A36AF00478B74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0212DFB5136A376200478B74 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				0212DFB7136A378900478B74 /* JSON.h */,
+				0212DFB8136A378900478B74 /* NSObject+JSON.h */,
+				0212DFB9136A378900478B74 /* NSObject+JSON.m */,
+				0212DFBA136A378900478B74 /* SBJsonParser.h */,
+				0212DFBB136A378900478B74 /* SBJsonParser.m */,
+				0212DFBC136A378900478B74 /* SBJsonStreamParser.h */,
+				0212DFBD136A378900478B74 /* SBJsonStreamParser.m */,
+				0212DFBE136A378900478B74 /* SBJsonStreamParserAdapter.h */,
+				0212DFBF136A378900478B74 /* SBJsonStreamParserAdapter.m */,
+				0212DFC0136A378900478B74 /* SBJsonStreamParserState.h */,
+				0212DFC1136A378900478B74 /* SBJsonStreamParserState.m */,
+				0212DFC2136A378900478B74 /* SBJsonStreamWriter.h */,
+				0212DFC3136A378900478B74 /* SBJsonStreamWriter.m */,
+				0212DFC4136A378900478B74 /* SBJsonStreamWriterState.h */,
+				0212DFC5136A378900478B74 /* SBJsonStreamWriterState.m */,
+				0212DFC6136A378900478B74 /* SBJsonTokeniser.h */,
+				0212DFC7136A378900478B74 /* SBJsonTokeniser.m */,
+				0212DFC8136A378900478B74 /* SBJsonWriter.h */,
+				0212DFC9136A378900478B74 /* SBJsonWriter.m */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0212DF90136A36AF00478B74 /* iReddit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0212DFB2136A36AF00478B74 /* Build configuration list for PBXNativeTarget "iReddit" */;
+			buildPhases = (
+				0212DF8D136A36AF00478B74 /* Sources */,
+				0212DF8E136A36AF00478B74 /* Frameworks */,
+				0212DF8F136A36AF00478B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iReddit;
+			productName = iReddit;
+			productReference = 0212DF91136A36AF00478B74 /* iReddit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0212DF88136A36AF00478B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Servo Labs, LLC";
+			};
+			buildConfigurationList = 0212DF8B136A36AF00478B74 /* Build configuration list for PBXProject "iReddit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0212DF86136A36AF00478B74;
+			productRefGroup = 0212DF92136A36AF00478B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0212DF90136A36AF00478B74 /* iReddit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0212DF8F136A36AF00478B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0212DFA0136A36AF00478B74 /* InfoPlist.strings in Resources */,
+				0212DFA9136A36AF00478B74 /* MainWindow.xib in Resources */,
+				0212DFAF136A36AF00478B74 /* RootViewController.xib in Resources */,
+				02CB7AB3136A478100E55C07 /* CommentsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0212DF8D136A36AF00478B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0212DFA3136A36AF00478B74 /* main.m in Sources */,
+				0212DFA6136A36AF00478B74 /* iRedditAppDelegate.m in Sources */,
+				0212DFAC136A36AF00478B74 /* RootViewController.m in Sources */,
+				0212DFCA136A378900478B74 /* NSObject+JSON.m in Sources */,
+				0212DFCB136A378900478B74 /* SBJsonParser.m in Sources */,
+				0212DFCC136A378900478B74 /* SBJsonStreamParser.m in Sources */,
+				0212DFCD136A378900478B74 /* SBJsonStreamParserAdapter.m in Sources */,
+				0212DFCE136A378900478B74 /* SBJsonStreamParserState.m in Sources */,
+				0212DFCF136A378900478B74 /* SBJsonStreamWriter.m in Sources */,
+				0212DFD0136A378900478B74 /* SBJsonStreamWriterState.m in Sources */,
+				0212DFD1136A378900478B74 /* SBJsonTokeniser.m in Sources */,
+				0212DFD2136A378900478B74 /* SBJsonWriter.m in Sources */,
+				02CB7AB2136A478100E55C07 /* CommentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0212DF9E136A36AF00478B74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0212DF9F136A36AF00478B74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0212DFA7136A36AF00478B74 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0212DFA8136A36AF00478B74 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0212DFAD136A36AF00478B74 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0212DFAE136A36AF00478B74 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0212DFB0136A36AF00478B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0212DFB1136A36AF00478B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0212DFB3136A36AF00478B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iReddit/iReddit-Prefix.pch";
+				INFOPLIST_FILE = "iReddit/iReddit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0212DFB4136A36AF00478B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iReddit/iReddit-Prefix.pch";
+				INFOPLIST_FILE = "iReddit/iReddit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0212DF8B136A36AF00478B74 /* Build configuration list for PBXProject "iReddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0212DFB0136A36AF00478B74 /* Debug */,
+				0212DFB1136A36AF00478B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0212DFB2136A36AF00478B74 /* Build configuration list for PBXNativeTarget "iReddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0212DFB3136A36AF00478B74 /* Debug */,
+				0212DFB4136A36AF00478B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0212DF88136A36AF00478B74 /* Project object */;
+}
